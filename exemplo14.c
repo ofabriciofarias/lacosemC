@@ -30,7 +30,7 @@ int main(){
         mediaValor = (float) somaValor/contador;
         printf("O valor da media = %.2f\n", mediaValor);
     }else{
-        printf("Nao foi possvei calcular a media\n");
+        printf("Nao foi possivel calcular a media\n");
     }
 
 return 0;
