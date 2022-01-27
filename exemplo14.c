@@ -10,7 +10,7 @@ negativo.
 
 int main(){
 
-    int valor, somaValor = 0;
+    int valor = 0, somaValor = 0;
     int contador = 0;
     float mediaValor;
 
