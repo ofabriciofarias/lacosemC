@@ -1,7 +1,7 @@
 /*
-ExercÌcio
-Construir um algoritmo que calcule a mÈdia aritmÈtica de v·rios valores inteiros
-positivos, lidos externamente. O final da leitura acontecer· quando for lido um valor
+Exerc√≠cio
+Construir um algoritmo que calcule a m√©dia aritm√©tica de v√°rios valores inteiros
+positivos, lidos externamente. O final da leitura acontecer√° quando for lido um valor
 negativo.
 
 */
@@ -10,7 +10,11 @@ negativo.
 
 int main(){
 
+
     int valor = 0, somaValor = 0;
+
+    int valor=0, somaValor = 0;
+
     int contador = 0;
     float mediaValor;
 
@@ -30,7 +34,7 @@ int main(){
         mediaValor = (float) somaValor/contador;
         printf("O valor da media = %.2f\n", mediaValor);
     }else{
-        printf("Nao foi possvei calcular a media\n");
+        printf("Nao foi possivel calcular a media\n");
     }
 
 return 0;
